@@ -15,6 +15,7 @@ MAINTAINER Remus Buzatu
 
 
 COPY custom.repo /etc/yum.repos.d/custom.repo
+RUN sed -i '/gpgcheck/d' /etc/yum.conf
 # Install necessary tools
 RUN yum install -y vim wget dialog net-tools httpd
 
