@@ -5,7 +5,7 @@
 
 
 # Set the base image to Ubuntu
-FROM rhel7
+FROM registry.access.redhat.com/rhel7
 
 # File Author / Maintainer
 MAINTAINER Remus Buzatu
@@ -16,7 +16,7 @@ MAINTAINER Remus Buzatu
 
 COPY custom.repo /etc/yum.repos.d/custom.repo
 # Install necessary tools
-RUN apt-get install -y vim wget dialog net-tools httpd
+RUN yum install -y vim wget dialog net-tools httpd
 
 
 # Add a sample index file
