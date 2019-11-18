@@ -1,0 +1,23 @@
+[rhel-7-server-rpms]
+baseurl = http://192.168.122.1/rhel-7-server-rpms
+name = rhel-7-server-rpms
+
+[rhel-7-server-optional-rpms]
+baseurl = http://192.168.122.1/rhel-7-server-optional-rpms
+name = rhel-7-server-optional-rpms
+
+[rhel-7-server-extras-rpms]
+baseurl = http://192.168.122.1/rhel-7-server-extras-rpms
+name = rhel-7-server-extras-rpms
+
+[rhel-7-server-rh-common-rpms]
+baseurl = http://192.168.122.1/rhel-7-server-rh-common-rpms
+name = rhel-7-server-rh-common-rpms
+
+[rhel-7-server-ose-3.11-rpms]
+baseurl = http://192.168.122.1/rhel-7-server-ose-3.11-rpms
+name = rhel-7-server-ose-3.11-rpms
+
+[rhel-7-server-ansible-2.6-rpms]
+baseurl = http://192.168.122.1/rhel-7-server-ansible-2.6-rpms
+name = rhel-7-server-ansible-2.6-rpms
