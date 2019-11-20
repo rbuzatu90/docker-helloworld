@@ -13,6 +13,8 @@ MAINTAINER Remus Buzatu
 # Add application repository URL to the default sources
 # RUN echo "deb http://archive.ubuntu.com/ubuntu/ raring main universe" >> /etc/apt/sources.list
 
+# Run as root
+USER root
 
 COPY custom.repo /etc/yum.repos.d/custom.repo
 RUN sed -i '/gpgcheck/d' /etc/yum.conf
